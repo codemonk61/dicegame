@@ -34,7 +34,7 @@ function dice1(){
 
    }
 	if(sum1>=totalScore){
-		document.getElementById("winner").innerText="Player1 wins"
+		document.getElementById("winner").innerText="Player1 wons"
 		document.getElementsByClassName("playagain")[0].style.visibility = 'visible'
 	}
 	setTimeout(()=>{
@@ -67,7 +67,7 @@ function dice2(){
 
    }
 	if(sum2>=totalScore){
-		document.getElementById("winner").innerText="Player2 wins"
+		document.getElementById("winner").innerText="Player2 wons"
 		document.getElementsByClassName("playagain")[0].style.visibility = 'visible'
 	}
 
